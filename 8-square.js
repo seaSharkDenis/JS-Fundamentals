@@ -5,7 +5,7 @@ if (isNaN(args[0]) || args[0] === undefined) {
 } else {
   let i = 0;
   while (i < parseInt(args[0])) {
-    console.log("x".repeat(args[0]));
+    console.log("X".repeat(args[0]));
     i++;
   }
 }
